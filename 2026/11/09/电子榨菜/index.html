@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="为啥今天想起来写这玩意，因为今天早二集合好tm冷才意识到马上冬天了。去年这个时候好像马上去厦门打美亚杯了，也好像马上进VN了。这么一算入队一年了，过了一年业内变化也太大了。 2025 11月25年11月好像是我最开心的一个月13号3c给我推去面了wm以及unk对我的评价   当时确实好菜啊哈哈哈 js原型链污染都没解释清楚，不过万幸vn把我收了，队里好多佬可以问问题当时是对未来很憧憬的。然后就是美">
+<meta property="og:type" content="article">
+<meta property="og:title" content="电子榨菜">
+<meta property="og:url" content="https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/index.html">
+<meta property="og:site_name" content="t0mcater&#39;s blog">
+<meta property="og:description" content="为啥今天想起来写这玩意，因为今天早二集合好tm冷才意识到马上冬天了。去年这个时候好像马上去厦门打美亚杯了，也好像马上进VN了。这么一算入队一年了，过了一年业内变化也太大了。 2025 11月25年11月好像是我最开心的一个月13号3c给我推去面了wm以及unk对我的评价   当时确实好菜啊哈哈哈 js原型链污染都没解释清楚，不过万幸vn把我收了，队里好多佬可以问问题当时是对未来很憧憬的。然后就是美">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/a961ac5de51b9494426a2c2bad77b7a9.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/ea91eb6ab62dbb21a42b31382ab0f483.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/30e336a913efc9b6a66049e47f9873d1.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/ebc5ae511d7ad1aa0e7301704c6e5431.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/89f9f2d889cff8e7bcc546ee475b50b3.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/1c469234d3900f1b09bc195ace7c5600.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/76353762acb2abb92b278432bb72d477.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/abf2d2144d550d40983b125d63169b9f.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/93265dd965da0243b969bca72206c829.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/0ecf288fd2845bc229ba125ec0fd98df.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/df8da59e35935105a749b648b0dd7baa.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/b911fd8ba0bd7941eeca8e821b93a6c5.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/4f40f2aeda3b657af041640538e610bd.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/f80c02e0aa4daed5a431f29076b0e915.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/174e6c438a4a3468dfd342989df3c71e.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/aac3afb34a8e77f62b4d12fe4156bfcb.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/ace938e8fe1e7b926496e6879dfb308d.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/4cbe05e8b0c970d3864e1bfcecf50f24.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/701f24e52c2aff5e4f83c1f20b9e18a5.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/a536430468524be311fbfd149397726b.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/c520cf42eded8e809564c82f1bfc4e22.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/a31e17bde6f9ea5a498e7cd455bf0964.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/cc9de44fb5332dd40077b7919f826f7d.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/34177cd1a33fce42da0ae8bbff8e6654.jpg">
+<meta property="og:image" content="https://www.t0mcater.site/images/dianzi-zhacai/8518b06a5fb550c6c4af22bea4df7ec5.jpg">
+<meta property="article:published_time" content="2026-11-09T03:30:00.000Z">
+<meta property="article:modified_time" content="2026-11-09T03:34:39.029Z">
+<meta property="article:author" content="t0mcater">
+<meta property="article:tag" content="随笔">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.t0mcater.site/images/dianzi-zhacai/a961ac5de51b9494426a2c2bad77b7a9.jpg">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>电子榨菜</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="目录"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="目录"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="顶部" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">archives</a></li><!--
+     --><!--
+       --><li><a href="/tags/">tags</a></li><!--
+     --><!--
+       --><li><a href="/categories/">categories</a></li><!--
+     --><!--
+       --><li><a href="/search/">搜索</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/2026/05/19/Readobject%20_to_tostring/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="返回顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">返回顶部</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&text=电子榨菜"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&is_video=false&description=电子榨菜"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=电子榨菜&body=Check out this article: https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&name=电子榨菜&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&t=电子榨菜"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#2025-11%E6%9C%88"><span class="toc-number">1.</span> <span class="toc-text">2025 11月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2025-12%E6%9C%88"><span class="toc-number">2.</span> <span class="toc-text">2025 12月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-1%E6%9C%88"><span class="toc-number">3.</span> <span class="toc-text">2026 1月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-2%E6%9C%88"><span class="toc-number">4.</span> <span class="toc-text">2026 2月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-3%E6%9C%88"><span class="toc-number">5.</span> <span class="toc-text">2026 3月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-4%E6%9C%88"><span class="toc-number">6.</span> <span class="toc-text">2026 4月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-5%E6%9C%88"><span class="toc-number">7.</span> <span class="toc-text">2026 5月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-6%E6%9C%88"><span class="toc-number">8.</span> <span class="toc-text">2026 6月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-7%E6%9C%88"><span class="toc-number">9.</span> <span class="toc-text">2026 7月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-8%E6%9C%889%E6%9C%88"><span class="toc-number">10.</span> <span class="toc-text">2026 8月9月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-10%E6%9C%88"><span class="toc-number">11.</span> <span class="toc-text">2026 10月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-11%E6%9C%88"><span class="toc-number">12.</span> <span class="toc-text">2026 11月</span></a></li></ol>
+      </div>
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        电子榨菜
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">t0mcater</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2026-11-09T03:30:00.000Z" class="dt-published" itemprop="datePublished">2026-11-09</time>
+        
+        (Updated: <time datetime="2026-11-09T03:34:39.029Z" class="dt-updated" itemprop="dateModified">2026-11-09</time>)
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fa-solid fa-archive"></i>
+        <a class="category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa-solid fa-tag"></i>
+        <a class="p-category" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <p>为啥今天想起来写这玩意，因为今天早二集合好tm冷才意识到马上冬天了。去年这个时候好像马上去厦门打美亚杯了，也好像马上进VN了。这么一算入队一年了，过了一年业内变化也太大了。</p>
+<h3 id="2025-11月"><a href="#2025-11月" class="headerlink" title="2025 11月"></a>2025 11月</h3><p>25年11月好像是我最开心的一个月<br>13号3c给我推去面了wm以及unk对我的评价</p>
+<img src="/images/dianzi-zhacai/a961ac5de51b9494426a2c2bad77b7a9.jpg" alt="" width="351" style="max-width:100%;height:auto;" />
+
+<p>当时确实好菜啊哈哈哈 js原型链污染都没解释清楚，不过万幸vn把我收了，队里好多佬可以问问题当时是对未来很憧憬的。<br>然后就是美亚杯</p>
+<img src="/images/dianzi-zhacai/ea91eb6ab62dbb21a42b31382ab0f483.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>去厦门前吃牛new!<br>去第一天玩嗨了，比赛的时候发烧了。个人赛的时候快睡着了，tmd。团队赛拿了第四被带飞了</p>
+<img src="/images/dianzi-zhacai/30e336a913efc9b6a66049e47f9873d1.jpg" alt="" width="378" style="max-width:100%;height:auto;" />
+
+<p>其实就差一点张博说我们最后改错了一题我哭。比完赛就去集美逛了</p>
+<img src="/images/dianzi-zhacai/ebc5ae511d7ad1aa0e7301704c6e5431.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>这是我第三次来厦门，上一次和我女朋友高三毕业的暑假来的。故地重游了，吃了一样的早餐店，真好吃。</p>
+<p>22号去四川比赛 拿了第一开心</p>
+<img src="/images/dianzi-zhacai/89f9f2d889cff8e7bcc546ee475b50b3.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>说实话当时线下断网赛打起来还是蛮得心应手 而且形成很放松 打了半天比赛 完了三天</p>
+<img src="/images/dianzi-zhacai/1c469234d3900f1b09bc195ace7c5600.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>当时开玩笑说要去gay 巴 最后去了清吧，米酒还行。</p>
+<p>回去npy给我买了个水杯 喝水很爽</p>
+<img src="/images/dianzi-zhacai/76353762acb2abb92b278432bb72d477.jpg" alt="" width="514" style="max-width:100%;height:auto;" />
+
+<h3 id="2025-12月"><a href="#2025-12月" class="headerlink" title="2025 12月"></a>2025 12月</h3><img src="/images/dianzi-zhacai/abf2d2144d550d40983b125d63169b9f.jpg" alt="" width="510" style="max-width:100%;height:auto;" />
+
+<p>lamentXU 给我寄了周边 开心（被我npy抢走了<br>12月就是国赛初赛吧 打的有点水逆，web做了一半勉强线下。</p>
+<h3 id="2026-1月"><a href="#2026-1月" class="headerlink" title="2026 1月"></a>2026 1月</h3><p>回老家实习 今年新来了一批师弟<br>无事发生</p>
+<h3 id="2026-2月"><a href="#2026-2月" class="headerlink" title="2026 2月"></a>2026 2月</h3><p>去广州play了</p>
+<img src="/images/dianzi-zhacai/93265dd965da0243b969bca72206c829.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>说是神秘拍照角度</p>
+<img src="/images/dianzi-zhacai/0ecf288fd2845bc229ba125ec0fd98df.jpg" alt="" width="634" style="max-width:100%;height:auto;" />
+
+<p>她自己p的好 我拍的很烂当时还吵架了哈哈哈 广州早茶真好吃。</p>
+<h3 id="2026-3月"><a href="#2026-3月" class="headerlink" title="2026 3月"></a>2026 3月</h3><img src="/images/dianzi-zhacai/df8da59e35935105a749b648b0dd7baa.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>打了suctf 纪念这个ctf历史转折点 已经能帮vn做很多题了，java也学了蛮多知识点。<br>去打国赛半决赛了</p>
+<img src="/images/dianzi-zhacai/b911fd8ba0bd7941eeca8e821b93a6c5.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>一等奖 没想到自己大二就能拿一等，awdp算是我擅长的部分，break的时候一题flag找不到急哭了（谁家好人flag放&#x2F;tmp  不然能更好的。</p>
+<img src="/images/dianzi-zhacai/4f40f2aeda3b657af041640538e610bd.jpg" alt="" width="570" style="max-width:100%;height:auto;" />
+
+<p>打完爽</p>
+<h3 id="2026-4月"><a href="#2026-4月" class="headerlink" title="2026 4月"></a>2026 4月</h3><p>打了fic初赛 拿了一等奖但是线上真打不出啥很好的成绩</p>
+<img src="/images/dianzi-zhacai/f80c02e0aa4daed5a431f29076b0e915.jpg" alt="" width="598" style="max-width:100%;height:auto;" />
+
+<p>这啥花蛮好看的可能是桃花？？<br>四月底去福州打ccb总决赛了<br>我直接狠狠面基 还能有几次这样的机会啊</p>
+<img src="/images/dianzi-zhacai/174e6c438a4a3468dfd342989df3c71e.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>猜猜我在哪儿哈哈哈<br>决赛爆0了 java题我一直想打springboot的jndi 链子写错了改了好久打通了才发现不出网<br>来不及打bcel了经验太少干。也没配javachain 哭。</p>
+<img src="/images/dianzi-zhacai/aac3afb34a8e77f62b4d12fe4156bfcb.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>全是vn和wm的师傅，真好</p>
+<h3 id="2026-5月"><a href="#2026-5月" class="headerlink" title="2026 5月"></a>2026 5月</h3><p>去宁波给我女朋友过生日了</p>
+<img src="/images/dianzi-zhacai/ace938e8fe1e7b926496e6879dfb308d.jpg" alt="" width="578" style="max-width:100%;height:auto;" />
+
+<p>美美拍照<br>然后去沈阳打fic了</p>
+<img src="/images/dianzi-zhacai/4cbe05e8b0c970d3864e1bfcecf50f24.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>决赛只有二等，有了ai让我们这种纯绿色手工玩家怎么活啊呜呜，赛场说是断网其实到处是手机热点。。。</p>
+<img src="/images/dianzi-zhacai/701f24e52c2aff5e4f83c1f20b9e18a5.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>和师兄一起合照nie</p>
+<h3 id="2026-6月"><a href="#2026-6月" class="headerlink" title="2026 6月"></a>2026 6月</h3><p>去北京打盘古石</p>
+<img src="/images/dianzi-zhacai/a536430468524be311fbfd149397726b.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>时代变了最终还是只有二等<br>回学校的时候发现实验室奖状好多 合起来拍了一张（其实只有最近的</p>
+<img src="/images/dianzi-zhacai/c520cf42eded8e809564c82f1bfc4e22.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>放了个假 去绍兴完了一圈</p>
+<img src="/images/dianzi-zhacai/a31e17bde6f9ea5a498e7cd455bf0964.jpg" alt="" width="622" style="max-width:100%;height:auto;" />
+
+<p>面好吃</p>
+<h3 id="2026-7月"><a href="#2026-7月" class="headerlink" title="2026 7月"></a>2026 7月</h3><p>学期结束了 最后几天去郑州打御网杯又是第四</p>
+<img src="/images/dianzi-zhacai/cc9de44fb5332dd40077b7919f826f7d.jpg" alt="" style="max-width:100%;height:auto;" />
+
+<p>河南真的很好吃</p>
+<img src="/images/dianzi-zhacai/34177cd1a33fce42da0ae8bbff8e6654.jpg" alt="" width="616" style="max-width:100%;height:auto;" />
+
+<p>这个菜蟒之前刷到馋死我了。</p>
+<h3 id="2026-8月9月"><a href="#2026-8月9月" class="headerlink" title="2026 8月9月"></a>2026 8月9月</h3><p>回去实习上班，学渗透打hack the box</p>
+<h3 id="2026-10月"><a href="#2026-10月" class="headerlink" title="2026 10月"></a>2026 10月</h3><p>回台州打省教育厅护网 拿着artex爽打，自己打了一波内网，日穿了两个学校。最后是第三给我们直通了省赛总决赛，但是真的很累。晚上偷偷打，白天写报告。r了快小一百台机器了，真的很爽。<br>带队友去看了市民广场的鸽子</p>
+<img src="/images/dianzi-zhacai/8518b06a5fb550c6c4af22bea4df7ec5.jpg" alt="" width="586" style="max-width:100%;height:auto;" />
+
+<p>我要当红队我要当红队我要当红队！</p>
+<h3 id="2026-11月"><a href="#2026-11月" class="headerlink" title="2026 11月"></a>2026 11月</h3><p>水逆。帮VN打了强网杯 燃尽了还是没做到，做了很多题没有进线下。现在比赛太难了，ctf已经完全不需要人来打了，很难受，自己学了3年最后被ai狠狠取代。只需要你有钱，能充token好像就能打比赛。<br>同时学校出了一些很nt的gz ，有些ld说要扩大参赛队伍的数量，覆盖面，不能老是让同一只队伍去比赛。美其名曰没钱了，同时也要让跟多的队伍参赛拿奖。我真的笑尿了，竞赛这玩意是你想覆盖面广就行的吗哈哈哈，你干脆直接指定队伍去得了，谁不知道你这点小心思。反思一下自己，好像就和系部几个攻防取证的老师关系比较好，可能没去搞人际关系？懒得搞，纯卸磨杀驴。一边没钱，一边要出成绩，可能是我太菜的缘故，现在这个赛况，真的很难打。感觉没那么喜欢这玩意儿了，有我自己的主观原因，也有客观原因。黄鹤杯我们进线下赛了，可以去打awdp和realworld，学校不让去。其他学校的师傅听见都震惊了（我们自费去都不同意），不是标准赛不让去哈哈哈。都去打你的挑杯，数模，蓝桥杯吧（最垃圾的三个比赛）。没得打线下赛，怎么进步，难道所有人都是第一次打国赛就能直接去线下的吗？越写越难受吧只能说。还剩一个数证，一个国赛。今年国赛能赢吗，打完也马上要学联考了，最后给我个圆满的结果吧哈哈哈。</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">首页</a></li>
+        
+          <li><a href="/about/">关于</a></li>
+        
+          <li><a href="/archives/">archives</a></li>
+        
+          <li><a href="/tags/">tags</a></li>
+        
+          <li><a href="/categories/">categories</a></li>
+        
+          <li><a href="/search/">搜索</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+      <div id="toc-footer" style="display: none">
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#2025-11%E6%9C%88"><span class="toc-number">1.</span> <span class="toc-text">2025 11月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2025-12%E6%9C%88"><span class="toc-number">2.</span> <span class="toc-text">2025 12月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-1%E6%9C%88"><span class="toc-number">3.</span> <span class="toc-text">2026 1月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-2%E6%9C%88"><span class="toc-number">4.</span> <span class="toc-text">2026 2月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-3%E6%9C%88"><span class="toc-number">5.</span> <span class="toc-text">2026 3月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-4%E6%9C%88"><span class="toc-number">6.</span> <span class="toc-text">2026 4月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-5%E6%9C%88"><span class="toc-number">7.</span> <span class="toc-text">2026 5月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-6%E6%9C%88"><span class="toc-number">8.</span> <span class="toc-text">2026 6月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-7%E6%9C%88"><span class="toc-number">9.</span> <span class="toc-text">2026 7月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-8%E6%9C%889%E6%9C%88"><span class="toc-number">10.</span> <span class="toc-text">2026 8月9月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-10%E6%9C%88"><span class="toc-number">11.</span> <span class="toc-text">2026 10月</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2026-11%E6%9C%88"><span class="toc-number">12.</span> <span class="toc-text">2026 11月</span></a></li></ol>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&text=电子榨菜"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&is_video=false&description=电子榨菜"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=电子榨菜&body=Check out this article: https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&title=电子榨菜"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&name=电子榨菜&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://www.t0mcater.site/2026/11/09/%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C/&t=电子榨菜"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+        
+          <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2026
+    t0mcater
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">archives</a></li><!--
+     --><!--
+       --><li><a href="/tags/">tags</a></li><!--
+     --><!--
+       --><li><a href="/categories/">categories</a></li><!--
+     --><!--
+       --><li><a href="/search/">搜索</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板！\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功！");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
